@@ -3,16 +3,29 @@
     height: 60px;
   margin-left:
 }
+nav a{
+  padding: 1em;
+  display: inline;
+  text-align:center ;
+  justify-content: flex-end;
+  list-style: none;
 
-
-ul{position: absolute;
-  list-style:none;
-   display: inline-flex;
-   justify-content: space-between;
-  top:0px;
-  right: 0px;
-  padding:0  10px;
+}
+.nav ul{
+    margin: 0em;
+   list-style:none;
+   padding:0px ;
+   list-style: none;
   }
+  .nav .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  
+  @media(max-with:450px){
+flex-flow: column wrap;
+  }
+}
 
 
   p{color:black;
@@ -23,13 +36,13 @@ html{
 
   font: normal 16px Raleway;
   color: black;
-  width: auto;
+  width: 100%;
 
 }
 
 
 .div section{
-  color:blue;
+  color:rgb(17, 17, 202);
   vertical-align: top;
   margin:50px;
 }
@@ -44,92 +57,130 @@ a:hover{
 
 }
 body{
-  background-color:#F2F2F2; 
+  position: relative;
+  background-color:#fff;
+  width: 100%;
 }
 
-.gallerie1{
-  display:inline-flex;
-  width: 600px;
-  margin: 8px;
-  justify-content:space-between;
-  flex-wrap:wrap;
-
-
-
+#conteneur1 
+{
+  justify-content:flex-start;
+	display:grid;
+  background:#F2F2F2;
+	grid-template-columns:1fr 1fr 2fr ;
+	grid-template-rows:1fr 1fr 3fr;
+	column-gap:0px;
+	height: 0px;
+	width: 900px;
 }
 figure{
-  width: 200px;
-  margin: 10px 0px;
-  border:3px solid #F2F2F2;
-  padding: 10px;
-  box-sizing: border-box;
-  background-color: #fff;
-  border-radius: 7px; 
+	width: 200px;
+	margin: 10px 0px;
+	border:10px solid #F2F2F2;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #fff;
+	border-radius: 10px; 
 }
-figure img{
-  width: 100%;
-  border-radius:7px; 
+img{
+	background-size: cover;
+  width: 150px;
+  height: 100px;
+  border-radius:8px;
 }
+
+
 figure figcaption,i{
   text-align: center;
   padding: 4px 4px;
 }
+
 i{
   color:#0065FC;
 }
-*{
-  box-sizing: content-box;
-}
-.gallerie2{
 
-}
-figure{
 
-}
-figure img{
-  width: 50%;
-  height:50%;
-  object-fit: cover;
-}
-figure figcaption,i{
+.conteneur2 
+{
+    float: right;
+    grid-template-rows:1fr 2fr;
+    column-gap: 150px;
+    padding:150px ;
+    flex-direction:column;
+    background-position: 100px;
+    height: 200px;
+    width:150px ;
+    margin-left: 35%;
+    margin-right: 10px ;
+    margin-top: 1%;
   
+  }
+.figure{
+	width: 40px;
+	margin: 10px 0px;
+	border:3px solid #F2F2F2;
+	padding: 40px;
+	box-sizing: border-box;
+	background-color: #fff;
+	border-radius: 7px;
+
 }
 
-.gallerie3{
 
-  grid-template-columns:60px;
-  grid-template-rows: 100%;
-}
-.gallerie3__img{
+  .flex-conteneur3{
+  display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-template-rows:;
+	column-gap:1rem;
+	height: 5px;
+	width: 100%;
+    grid-template-areas
+  }
+  
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer{
-
-background:
-color: #CCCCCC
-(204,204,204)
-
-
-position:absolute;
-
-bottom:0;
-
-width:100%;
-
-padding-top:50px;
-
-height:100px;
-
-
+  display: flex;
+  background-color: rgb(211, 209, 209);
+  justify-content: space-between;
+  padding-top: 20px;
+  
+  
 
 }
+ul{
+  list-style: none;
+  justify-content: space-between;
+  
 
+  
 
-
-img{
-  width:100px;
-  height: 100px;
 }
+h5{
+text-align: center;
+}
+
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+@media screen and (max-width: 1280px)
+
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+@media all and (min-width: 1024px) and (max-width: 1280px)
+/* Sur tous types d'écrans orientés verticalement */
+@media all and (orientation: portrait)
 
 
 
