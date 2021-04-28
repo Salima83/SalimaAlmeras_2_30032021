@@ -6,106 +6,154 @@
       <link rel="stylesheet" media="screen and (max-width: 1280px)" href="petite_resolution.css" /><!-- Pour ceux qui ont une résolution inférieure à 1280px -->
       <script src="https://kit.fontawesome.com/3f11ec1643.js" crossorigin="anonymous"></script>
       <meta name="viewport" content="width=device-width" />
-      <img src="image/logo Reservia.png"alt="Reservia" id="logo">
     </head>
        <body>
        	<!--header-->
 
-	     <header>
-	     	<nav class="nav" role="navigation">
-	     		<ul class="menu">	
-            <li><a href="#Hébergement"> Hébergements</a></li>
-         	  <li><a href="#Activités">Activités</a></li>
-         	  <li><a href="#S'inscrire">S'inscrire</a></li>
+	  <header>
+      <section class="nav-bar">
+        <div class="nav-container">
+         <img src="image/logo Reservia.png"alt="Reservia" id="logo">
+	     	 <nav class="nav" role="navigation">
+	     		<ul class="nav-menu">	
+            <li><a href="#"> Hébergements</a></li>
+         	  <li><a href="#">Activités</a></li>
+         	  <li><a href="#">S'inscrire</a></li>
           </ul>
         </nav>
-        </header>
+        </div>
+    </section>
+   </header>
      
          <!--section-->
 
-         <div section>
+         <div section= "info">
+          <div>
             <p> Trouvez votre hébergement pour des vacances de rêve</p>
             <h6> En plein centre ville ou en pleine nature</h6>
           </div>
-
-          <div> 
+      
+          <button class="map">
          <i class="fa fa-map-marker" aria-hidden="true"></i>
          	<input type="texte"placeholder="Marseille,France"> </button>
-         	<button type="submit">Recherche </button><br>
-          </div>
 
-        
-         	<p class="#">Filtres</p>
+         	  <button class="Recherche">
+            <i class="fa fa-recherche" aria-hidden="true"></i> Recherche</button>
+
+            </form>
+        </div>
+        <div>
+          <div class="barre-filtres">
+          <p class="barre-filtres2"> Filtres</p>
+          <div class="barre-filtres3">
+            <div class="circle-icones">
          	<i class="fas fa-money-bill-wave"></i>
-         	<button type="Economique">Economique</button>
-         	<i class="fas fa-child"></i>
-         	<button type="Familial">Familial</button>
-         	<i class="fas fa-heart"></i>
-         	<button type="Romantique">Romantique</button>
-         	<i class="fas fa-dog"></i>
-         	<button type="Animaux autorisé">Animaux autorisé</button><br>
-
+         	<span class="Economique">Economique</span>
+         	
+         </div>
+          <div class="circle-icones">
+            <i class="fas fa-child"></i>
+         	<span class="Familial">Familial</span>
+         	
+         </div>
+         <div class="circle-icones">
+          <i class="fas fa-heart"></i>
+         	<span class="Romantique">Romantique</span>
+         </div>
+         	
+         
+         <div class="circle-icones">
+         <i class="fas fa-dog"></i>
+         	<span class ="Animaux autorisé">Animaux autorisé</span>
+          </div>
+         </div>
+         </div>
+        </div>
        </div>
 
 
 
        <i class="fas fa-info-circle"> Plus de 500 logements sont disponible dans cette ville</i>
+      </div>
+       <!--section1-->
 
-       <!---section1---->
+    
+   <div class="conteneur">
+    <header class="headerhébergement">
+  <h3 class="headerhébergement">Hébergement à Marseille</h3></header>
 
-       <h2>Hébergement à Marseille</h2>
-         <div id="conteneur1">
-         	 <figure class="conteneur1__item--1 ">
-           <img class src="image/Auberge la canebière.jpg"alt="photo chambre"/>
-           <figcaption>Auberge la canebière<br>Nuit à partir de 25€</figcaption>
+       <div id ="conteneur1">
+        <article class="carte">
+         <a href="contenue-carte" href="#"></a>
+       
+         	 <div class="conteneur1__item--1 ">
+           <img class = "conteneur1-img"src="image/Auberge la canebière.jpg"alt="photo chambre"/>
+           <figcaption>Auberge la canebière<br>Nuit à partir de 25€ </figcaption>
            <i class="fas fa-star"></i>
            <i class="fas fa-star"></i>
            <i class="fas fa-star"></i>
            <i class="fas fa-star"></i>
            <i class="far fa-star"></i>
-            </figure>
+          
+            </div>
+          </article>
 
-       <figure class="conteneur1__item--2">
-           <img class src="image/Hotel du port.jpg"alt="photo chambre"/>
+          <article class="carte">
+         <a href="contenue-carte" href="#"></a>
+       <div class="conteneur1__item--2">
+           <img class="conteneur1-img"src="image/Hotel du port.jpg"alt="photo chambre"/>
            <figcaption>Hotel du port<br>Nuit à partir de 52€</figcaption>
              <i class="fas fa-star"></i>
              <i class="fas fa-star"></i>
              <i class="fas fa-star"></i>
              <i class="fas fa-star"></i>
              <i class="fas fa-star"></i>
-       </figure>
-
-        <figure class="conteneur1__item--3">
-           <img class src="image/Hotel les mouettes.jpg"alt="photo chambre"/>
+       </div>
+     </article>
+           <article class="carte">
+         <a href="contenue-carte" href="#"></a>
+        <div class="conteneur1__item--3">
+           <img class="conteneur1-img"src="image/Hotel les mouettes.jpg"alt="photo chambre"/>
            <figcaption>Hotel Les mouettes<br>Nuit à partir de 76€</figcaption>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="far fa-star"></i>
-       </figure>
+       </div>
+     </article>
 
-       <figure class="conteneur1__item--4">
-           <img class src="image/Hotel de la mer.jpg" alt="photo chambre"/>
+     <article class="carte">
+        <a href="contenue-carte" href="#"></a>
+
+       <div class="conteneur1__item--4">
+           <img class="conteneur1-img"src="image/Hotel de la mer.jpg" alt="photo chambre"/>
            <figcaption>Hotel de la mer<br>Nuit à partir46€</figcaption>
            <i class="fas fa-star"></i>
            <i class="fas fa-star"></i>
            <i class="fas fa-star"></i>
            <i class="far fa-star"></i>
            <i class="far fa-star"></i>
-       </figure>
+       </div>
+       </article>
 
-       <figure class="conteneur1__item--5">
-           <img class src="image/Auberge le Panier.jpg"alt="photo chambre"/>
+       <article class="carte">
+         <a href="contenue-carte" href="#"></a>
+       <div class="conteneur1__item--5">
+           <img class="conteneur1-img"src="image/Auberge le Panier.jpg"alt="photo chambre"/>
            <figcaption>Auberge Le Panier<br>Nuit à partir de 46€</figcaption>
            <i class="fas fa-star"></i>
            <i class="fas fa-star"></i>
            <i class="fas fa-star"></i>
            <i class="fas fa-star"></i>
            <i class="far fa-star"></i>
-       </figure>
-       <figure class="conteneur1__item--6">
-           <img class src="image/Hotel chez Amina.jpg"alt="photo chambre"/>
+       </div>
+     </article>
+
+     <article class="carte">
+         <a href="contenue-carte" href="#">
+       <div class="conteneur1__item--6">
+           <img class="conteneur1-img"src="image/Hotel chez Amina.jpg"alt="photo chambre"/>
            <figcaption>Hotel chez Amina<br>Nuit à partir de 96€</figcaption>
            <i class="fas fa-star"></i>
            <i class="fas fa-star"></i>
@@ -113,26 +161,38 @@
            <i class="fas fa-star"></i>
            <i class="fas fa-star"></i>
            
-       </figure>
-         <a href="#"Afficher plus></a>
+       </div>
+       
+     </article>
+         <a class="plus" href="#">Afficher plus</a>
         </div>
 
-   <!---section2-->
-
    <div class="conteneur2">
-      <h3> Les plus populaires </h3>
-   	   
-   	      <figure class="conteneur2__item--1">
-   	   	   		<img class src="image/Hotel Le soleil du matin.jpg" alt="photo chambre"/>
+    <aside class="cartepopulaire">
+      <h3 class="populaireTitle" >Les plus populaire
+        <i class="fas fa-chart-line"></i>
+       </h3>
+   	    <article class="cartepopulaire1">
+          <a class="contenuecartepopulaire" href="#">
+   	      <div class="conteneur2__item--1">
+   	   	   		<img class="conteneur2-img"src="image/Hotel Le soleil du matin.jpg" alt="photo chambre"/>
+              <div class="discription-carte">
                  <figcaption> Hotel Le soleil du matin<br>Nuit a partir de 128€</figcaption>
+                 <div class="espace"></div>
+                 <div class="star-carte">
                   <i class="fas fa-star"></i>
    		            <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
    		            <i class="fas fa-star"></i>
-   	      </figure>
-   	   <figure class="conteneur2__item--2">
-   		 <img class src="image/Au coeur de l'eau Chambres d'hotes.jpg" alt="photo chambre"/>
+                </div>
+          </div>
+   	      </a>
+        </article>
+        <article class="cartepopulaire">
+          <a class="cartepopulaire" href="#"></a>
+   	   <div class="conteneur2__item--2">
+   		 <img clas="conteneur2-img"src="image/Au coeur de l'eau Chambres d'hotes.jpg" alt="photo chambre"/>
    		 <figcaption>Au coeur de l'eau Chambres d'hotes<br>Nuit à partir de 71€</figcaption>
    		            <i class="fas fa-star"></i>
    		            <i class="fas fa-star"></i>
@@ -141,10 +201,12 @@
                   <i class="far fa-star"></i>
 
 
-   	   </figure>
-
-   	   <figure class="conteneur2__item--3">
-        <img class src="image/Hotel Tout bleu et Blanc.jpg" alt="photo chambre"/>
+   	   </div>
+     </article>
+       <article class="cartepopulaire">
+          <a class="cartepopulaire" href="#"></a>
+   	   <div class="conteneur2__item--3">
+        <img class="conteneur2-img"src="image/Hotel Tout bleu et Blanc.jpg" alt="photo chambre"/>
         <figcaption>Hotel Tout bleu et Blanc<br>Nuità partir de 168€</figcaption>
    		             <i class="fas fa-star"></i>
                    <i class="fas fa-star"></i>
@@ -153,41 +215,45 @@
                    <i class="far fa-star"></i>
 
 
-    </figure>
-      </div>
-      
+    </div>
+  </article>
+   </div>
+    
+  </div>
+</aside>
+
 
      <!--section3-->
 
      <h4 class="titre"> Activités à Marseille</h4>
      <div class="flex-conteneur3">
-     	<figure class="flex-item1">
-     		<img class src="image/Vieux Port.jpg"alt="image" width="300px"/>
+     	<div class="flex-item1">
+     		<img class="conteneur3-img"src="image/Vieux Port.jpg"class="image Activités" alt=image1">
          <figcaption>Vieux Port</figcaption>
-     	</figure>
-     <figure class="flex__item--2">
-     <img src="image/Fort de Pomègues.jpg "alt="Activités"/>
+     	</div>
+     <div class="flex-tem2">
+     <img class="conteneur3-img"src="image/Fort de Pomègues.jpg "alt="Activités"/>
          <figcaption>Fort de Pomègues</figcaption>
-     </figure>
+     </div>
 
-        <figure class="flex__item--3">
-          <img class src="image/Ile du Frioul.jpg"alt="Activités"/>
+        <div class="flex-item3">
+          <img class="conteneur3-img"src="image/Ile du Frioul.jpg"alt="Activités"/>
           <figcaption>Ile du Frioul</figcaption>
-       </figure>
-       <figure class="flex__item--4">
-          <img class src="image/Parc National des Calanques.jpg"alt="Activités"/>
+       </div>
+       <div class="flex-item4">
+          <img class="conteneur3-img"src="image/Parc National des Calanques.jpg"alt="Activités"/>
           <figcaption> Parc National des Calanques</figcaption>
-      </figure>
-      <figure class="flex__item--5">
-         <img class src="image/Notre-Dame-de-la-Garde.jpg"alt="Activités"/>
+      </div>
+      <div class="flex-item5">
+         <img class="conteneur3-img"src="image/Notre-Dame-de-la-Garde.jpg"alt="Activités"/>
          <figcaption>Notre-Dame-de-la-Garde </figcaption>
-    </figure>
-    <figure class="flex__item--6">
-         <img class src="image/Parc longchamp.jpg"alt=Activités/>
+    </div>
+    <div class="flex-item6">
+         <img class="conteneur3-img"src="image/Parc longchamp.jpg"alt=Activités/>
          <figcaption>Parc longchamp </figcaption>
-        </figure>
+        </div>
          </div>
-
+</div>
        
    	<!--Footer-->
 
