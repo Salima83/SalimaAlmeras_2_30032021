@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="fr">
   <head>
     <title>Projet2</title>
       <meta charset="utf-8"/>
@@ -9,73 +10,79 @@
     </head>
        <body>
        	<!--header-->
-
-	  <header>
-      <section class="nav-bar">
-        <div class="nav-container">
-         <img src="image/logo Reservia.png"alt="Reservia" id="logo">
+    <nav class= "nav-section">
+	  <header class="header">
+     <img class="logo-img"src="image/logo Reservia.png"alt="Reservia" id="logo">
 	     	 <nav class="nav" role="navigation">
-	     		<ul class="nav-menu">	
-            <li><a href="#"> Hébergements</a></li>
-         	  <li><a href="#">Activités</a></li>
-         	  <li><a href="#">S'inscrire</a></li>
-          </ul>
-        </nav>
-        </div>
-    </section>
+	     		<a class="lien-navigation" href="#nav">Hébergement</a>
+          <a class="lien-navigation" href="#nav">Activité</a>
+          </nav>
+         	<a class="inscription" href="#">S'inscrire</a>
+    
    </header>
+ </nav>
      
-         <!--section-->
+         <!--section info recherche-->
 
-         <div section= "info">
-          <div>
-            <p> Trouvez votre hébergement pour des vacances de rêve</p>
-            <h6> En plein centre ville ou en pleine nature</h6>
+         <section class= "info">
+          <div class="info-recherche">
+            <div class="info-recherche1">
+            <h1 class= "Titre-Recherche">Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p class="sous-info">En plein centre ville ou en pleine nature</p>
           </div>
-      
-          <button class="map">
-         <i class="fa fa-map-marker" aria-hidden="true"></i>
-         	<input type="texte"placeholder="Marseille,France"> </button>
+     
+          <div class="map">
+            <div class="search-zone1  search-zone2  ">
+         <i class="fa fa-map-marker" aria-hidden="true"></i></div>
+         	<input type="texte" class="search-input"placeholder="Marseille,France"> 
+         	  <div class="Recherche">
+            <button class="recherche-boutton">Rechercher</button>
+            <div class="search-form"></div>
+            <div class="search_circle-icone   icon-right">
+              <i class="fas fa-search"aria-hidden="true"></i>
+            </div>
+        </div> 
+        </div> 
 
-         	  <button class="Recherche">
-            <i class="fa fa-recherche" aria-hidden="true"></i> Recherche</button>
-
-            </form>
-        </div>
-        <div>
           <div class="barre-filtres">
-          <p class="barre-filtres2"> Filtres</p>
+            <div class="barre-Filtre">
+          <h3 class="barre-filtres2"> Filtres</h3></div>
           <div class="barre-filtres3">
             <div class="circle-icones">
-         	<i class="fas fa-money-bill-wave"></i>
-         	<span class="Economique">Economique</span>
+         	<i class="fas fa-money-bill-wave"></i></div>
+         	<span class="circle-entete">Economique</span>
+         </div>
+
+          <div class="barre-filtres3">
+            <div class="circle-icones">
+            <i class="fas fa-child"></i></div>
+         	<span class="circle-entete">Familial</span>
          	
          </div>
-          <div class="circle-icones">
-            <i class="fas fa-child"></i>
-         	<span class="Familial">Familial</span>
-         	
-         </div>
+         <div class="barre-filtres3">
          <div class="circle-icones">
-          <i class="fas fa-heart"></i>
-         	<span class="Romantique">Romantique</span>
+          <i class="fas fa-heart"></i></div>
+         	<span class="circle-entete">Romantique</span>
          </div>
          	
-         
+         <div class="barre-filtres3">
          <div class="circle-icones">
-         <i class="fas fa-dog"></i>
-         	<span class ="Animaux autorisé">Animaux autorisé</span>
-          </div>
+         <i class="fas fa-dog"></i></div>
+         	<span class ="circle-entete">Animaux autorisé</span>
+         </div>
+
          </div>
          </div>
-        </div>
-       </div>
+         <div class="affichage">
+          <div class="affichage-icon-fas">
 
 
 
-       <i class="fas fa-info-circle"> Plus de 500 logements sont disponible dans cette ville</i>
+       <i class="fas fa-info-circle"></i></div>
+       <p class="text-affichage-icon">Plus de 500 logements sont disponible dans cette ville</p>
       </div>
-       <!--section1-->
+    </div>
+    </section>       <!--section1-->
 
     
    <div class="conteneur">
@@ -225,36 +232,38 @@
 
      <!--section3-->
 
-     <h4 class="titre"> Activités à Marseille</h4>
-     <div class="flex-conteneur3">
-     	<div class="flex-item1">
-     		<img class="conteneur3-img"src="image/Vieux Port.jpg"class="image Activités" alt=image1">
-         <figcaption>Vieux Port</figcaption>
-     	</div>
-     <div class="flex-tem2">
-     <img class="conteneur3-img"src="image/Fort de Pomègues.jpg "alt="Activités"/>
-         <figcaption>Fort de Pomègues</figcaption>
-     </div>
-
-        <div class="flex-item3">
-          <img class="conteneur3-img"src="image/Ile du Frioul.jpg"alt="Activités"/>
-          <figcaption>Ile du Frioul</figcaption>
-       </div>
-       <div class="flex-item4">
-          <img class="conteneur3-img"src="image/Parc National des Calanques.jpg"alt="Activités"/>
-          <figcaption> Parc National des Calanques</figcaption>
-      </div>
-      <div class="flex-item5">
-         <img class="conteneur3-img"src="image/Notre-Dame-de-la-Garde.jpg"alt="Activités"/>
-         <figcaption>Notre-Dame-de-la-Garde </figcaption>
+       <!--section3-->
+<section class="Activité">
+  <h4 class="titre"> Activités à Marseille</h4>
+  <div class="flex-conteneur3">
+    <div class="flex-item1">
+      <img class="conteneur3-img"src="image/Vieux Port.jpg"class="image Activités" alt=image1">
+      <figcaption>Vieux Port</figcaption>
     </div>
-    <div class="flex-item6">
-         <img class="conteneur3-img"src="image/Parc longchamp.jpg"alt=Activités/>
-         <figcaption>Parc longchamp </figcaption>
-        </div>
-         </div>
+  <div class="flex-tem2">
+  <img class="conteneur3-img"src="image/Fort de Pomègues.jpg "alt="Activités"/>
+      <figcaption>Fort de Pomègues</figcaption>
+  </div>
+
+     <div class="flex-item3">
+       <img class="conteneur3-img"src="image/Ile du Frioul.jpg"alt="Activités"/>
+       <figcaption>Ile du Frioul</figcaption>
+    </div>
+    <div class="flex-item4">
+       <img class="conteneur3-img"src="image/Parc National des Calanques.jpg"alt="Activités"/>
+       <figcaption> Parc National des Calanques</figcaption>
+   </div>
+   <div class="flex-item5">
+      <img class="conteneur3-img"src="image/Notre-Dame-de-la-Garde.jpg"alt="Activités"/>
+      <figcaption>Notre-Dame-de-la-Garde </figcaption>
+ </div>
+ <div class="flex-item6">
+      <img class="conteneur3-img"src="image/Parc longchamp.jpg"alt=Activités/>
+      <figcaption>Parc longchamp </figcaption>
+     </div>
+      </div>
 </div>
-       
+</section>
    	<!--Footer-->
 
 
