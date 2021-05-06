@@ -34,7 +34,8 @@
 }
 .header {
     display: grid;
-    grid-template-columns: 1fr repeat(3, 160px);
+    grid-template-columns: auto 1fr auto auto;
+    grid-template-areas: "logo .navigation";
     align-items: center;
     justify-content: center;
     max-width: 1440px;
@@ -100,7 +101,7 @@ a {
 .search-zone2 {
     border-radius: 1rem 0rem 0rem 1rem;
 }
-.search-input {
+.search-zone {
     padding: 0rem 1rem;
     width: 235px;
     height: 2.9rem;
@@ -542,6 +543,7 @@ h2 {
 }
 .contenue-footer {
     display: flex;
+    align-items: flex-start;
     max-width: 100%;
     width: 1140px;
     margin: auto;
@@ -552,6 +554,7 @@ h2 {
     box-sizing: border-box;
 }
 .footer-colonne {
+    align-items: flex-start;
     width: 30%;
     padding-bottom: 2rem;
     padding-top: 2rem;
