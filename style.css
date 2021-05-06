@@ -59,6 +59,7 @@
     border-top-style: solid;
     border-top-color: #0065FC;
     justify-content: flex-end;
+    color: #0065FC;
 }
 .lien-navigation {
     padding: 2rem;
