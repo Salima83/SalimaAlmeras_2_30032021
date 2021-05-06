@@ -253,6 +253,10 @@ figcaption {
     column-gap: 2rem;
     grid-template-columns: 6fr 3fr;
 }
+.headerhébergement1 {
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
 .headerhébergement {
     margin: 0;
 }
