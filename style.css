@@ -227,6 +227,12 @@ figcaption {
     border: 2px solid #deebff;
     border-radius: 3rem;
 }
+.circle-entete {
+    margin-top: 0px;
+    margin-right: 1rem;
+    margin-bottom: 0px;
+    margin-left: 1rem;
+}
 .affichage {
     display: flex;
     flex-direction: row;
