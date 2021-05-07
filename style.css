@@ -418,7 +418,7 @@ h2 {
     margin-top: 0.25rem;
     margin-right: 0.75rem;
     margin-bottom: 0px;
-    margin-left: 0.75px;
+    margin-left: 0.75rem;
 }
 .prix2 {
     margin-top: 0.25rem;
@@ -430,6 +430,7 @@ h2 {
     font-weight: bold;
 }
 .espace {
+    flex: 1;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0%;
