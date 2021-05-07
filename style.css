@@ -8,6 +8,7 @@
     padding-top: 0px;
     padding-right: 2rem;
     padding-bottom: 0px;
+    padding-left: 2rem;
     height: 2.813rem;
 }
 
@@ -26,11 +27,10 @@
     list-style: none;
 }
 .nav-section {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     padding-top: 0px;
-    padding-right: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
 }
 .header {
     display: grid;
@@ -47,7 +47,7 @@
     line-height: 1.4;
 }
 .info-recherche1 {
-    margin-bottom: 0.25rem;
+    margin-bottom: 1rem;
 }
 #logo {
     grid-column-start: start: 1
@@ -103,7 +103,7 @@ a {
 }
 .search-zone {
     padding: 0rem 1rem;
-    width: 235px;
+    width: 150px;
     height: 2.9rem;
     font-size: 1.125rem;
     font-weight: 500;
@@ -169,12 +169,14 @@ figcaption {
     flex-wrap: wrap;
 }
 .barre-filtre {
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 .barre-filtres2 {
     display: flex;
-    margin: 0 2rem 1rem 0;
+    margin: 0 1rem 0 0;
     align-items: center;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
 }
 .main {
     max-width: 1440px;
@@ -237,6 +239,7 @@ figcaption {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-bottom: 2rem;
 }
 .affichage-icon-fas {
     display: flex;
@@ -245,7 +248,7 @@ figcaption {
     margin-right: 0.75rem;
     min-width: 1.5rem;
     min-height: 1.5rem;
-    border: 2px solid #FFFFFF;
+    border: 2px solid #D9D9D9;
     border-radius: 1.5rem;
     cursor: pointer;
 }
@@ -430,10 +433,7 @@ h2 {
     font-weight: bold;
 }
 .espace {
-    flex: 1;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0%;
+    padding-top: 2rem;
 }
 .star-carte {
     margin-top:0.25rem;
