@@ -224,7 +224,6 @@ figcaption {
     position: relative;
     min-width: 3rem;
     min-height: 3rem;
-    z-index: 1;
     background-color: #deebff;
     border: 2px solid #deebff;
     border-radius: 3rem;
@@ -279,6 +278,9 @@ figcaption {
     grid-row-gap: 1rem;
     grid-column-start: 1;
     grid-column-end: 2;
+}
+.fa.fa-line-chart {
+    color: black;
 }
 .plus {
     font-weight: bold;
