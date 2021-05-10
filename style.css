@@ -32,6 +32,10 @@
     padding-right: 1rem;
     padding-bottom: 1rem;
 }
+@media screen and(min-width:601px) .header {
+    grid-template-column: auto 1fr auto auto;
+    grid-template-area: logo nav .lien-navigation1 .nav-section;
+}
 .header {
     display: grid;
     grid-template-columns: auto 1fr auto auto;
@@ -113,6 +117,7 @@ a {
     border-right: none;
     border-bottom: 1px solid #F2F2F2;
     border-left: none;
+    font-weight: bold;
 }
 .search_circle-icone {
     display: flex;
@@ -189,15 +194,12 @@ figcaption {
     font-weight: 600;
     line-height: 1.2;
 }
-
-/**    
-@media screen and(max-width: 1018px)
-.barre-filtre3{
-	display:flex;
-	flex-direction:row;
-	flex-wrap:wrap;
-	grid-row-gap:1rem;
-}**/
+@media screen and(max-width: 1018px) .barre-filtre3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-row-gap: 1rem;
+}
 .barre-filtre3 {
     display: grid;
     grid-template-columns: repeat(4, auto);
@@ -253,6 +255,10 @@ figcaption {
 }
 
 /**@media(max-width: 1440px)**/
+@media(max-with:11440px) .conteneur {
+    grid-template-column: 1fr;
+    row-gap: 2rem;
+}
 .conteneur {
     display: grid;
     column-gap: 2rem;
@@ -271,6 +277,9 @@ figcaption {
     border-radius: 1.5rem;
     padding: 2rem;
 }
+@media (min-with:925px) .conteneur1 {
+    grid-template-colums: repeat(3, 1fr);
+}
 .conteneur1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -280,6 +289,9 @@ figcaption {
     grid-column-end: 2;
 }
 .fa.fa-line-chart {
+    color: black;
+}
+.fa.fa-map-marker {
     color: black;
 }
 .plus {
@@ -375,7 +387,7 @@ h2 {
     display: flex;
     flex-direction:column;
     padding: 2rem;
-    grid-row-gap: 2rem;
+    grid-row-gap: 1rem;
     grid-template-rows:(3, 1fr);
     grid-column-start: 2;
     grid-column-end: 3;
@@ -424,6 +436,7 @@ h2 {
     margin-right: 0.75rem;
     margin-bottom: 0px;
     margin-left: 0.75rem;
+    padding-bottom:0.5rem;
 }
 .prix2 {
     margin-top: 0.25rem;
@@ -471,6 +484,10 @@ h2 {
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
+}
+@media (min-with:1100px) .flex-conteneur3 {
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows:auto 14rem 2rem 2rem 2rem 14rem;
 }
 .flex-conteneur3 {
     display: grid;
@@ -572,8 +589,10 @@ ul {
     list-style: none;
     justify-content: space-between;
 }
-h5 {
-    text-align: center;
+.Titre-Marseille {
+    padding-block: 1rem;
+    text-align: left;
+    padding-left: 1rem;
 }
 img {
     width: 100%;
