@@ -159,7 +159,7 @@ i {
     color: #0065FC;
     vertical-align: right;
 }
-figcaption {
+.cartes-cartes {
     display: flex;
     flex-direction: column;
     text-decoration: none;
@@ -332,14 +332,12 @@ h2 {
     border-radius: 1.5rem 1.5rem 0 0;
     max-height: 100%
 }
-
-}
 .conteneur1__item--1 {
     margin:0;
     grid-column-start: 1;
     grid-column-end:2;
     grid-row-start: 1;
-    grid-row-end:2,
+    grid-row-end:2;
 }
 .conteneur1__item--2 {
     margin: 0;
