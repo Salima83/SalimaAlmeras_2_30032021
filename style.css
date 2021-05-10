@@ -253,16 +253,16 @@ i {
     border-radius: 1.5rem;
     cursor: pointer;
 }
-
-/**@media(max-width: 1440px)**/
-@media(max-with:11440px) .conteneur {
-    grid-template-column: 1fr;
-    row-gap: 2rem;
-}
 .conteneur {
     display: grid;
     column-gap: 2rem;
     grid-template-columns: 6fr 3fr;
+}
+
+/**@media(max-width: 1440px)**/
+@media(max-with:1440px) conteneur {
+    grid-template-column: 1fr;
+    row-gap: 2rem;
 }
 .headerhébergement1 {
     grid-column-start: 1;
