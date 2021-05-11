@@ -45,9 +45,14 @@
                                                                                                                           @media screen and (max-width:600px) {
                                                                                                                               .header {
                                                                                                                                   grid-template-columns: auto 1fr auto auto;
-                                                                                                                                  grid-template-areas: "logo .inscription" "nav nav 
- ";
-
+                                                                                                                                  grid-template-areas: "logo .inscription""nav nav";
+                                                                                                                              }
+                                                                                                                          }
+                                                                                                                          
+                                                                                                                          @media and (min-width:601px) {
+                                                                                                                              .header {
+                                                                                                                                  grid-template-columns: auto 1fr auto auto;
+                                                                                                                                  grid-template-areas: "logo .nav inscription ";
                                                                                                                               }
                                                                                                                           }
                                                                                                                           
@@ -282,10 +287,10 @@
                                                                                                                                   column-gap: 2rem;
                                                                                                                                   grid-template-columns: 6fr 3fr;
                                                                                                                               }
-                                                                                                                              @media(largeur maximale: 500px) {
+                                                                                                                              @media (max-widht:1440px) {
                                                                                                                                   .conteneur {
-                                                                                                                                      column-gap: 2rem;
-                                                                                                                                      grid-template-columns: 6fr 3fr;
+                                                                                                                                      grid-template-columns: 1fr;
+                                                                                                                                      row-gap: 2rem;
                                                                                                                                   }
                                                                                                                               }
                                                                                                                               .headerhebergement1 {
