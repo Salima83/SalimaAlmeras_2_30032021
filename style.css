@@ -316,7 +316,7 @@
                                                                                                                               }
                                                                                                                               @media (min-with:925px) {
                                                                                                                                   .conteneur1 {
-                                                                                                                                      grid-template-colums: repeat(3px, 1fr);
+                                                                                                                                      grid-template-columns: repeat(3px, 1fr);
                                                                                                                                   }
                                                                                                                               }
                                                                                                                               .fa.fa-line-chart {
