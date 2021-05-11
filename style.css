@@ -282,9 +282,11 @@
                                                                                                                                   column-gap: 2rem;
                                                                                                                                   grid-template-columns: 6fr 3fr;
                                                                                                                               }
-                                                                                                                              @media(largeur maximale: 500px) conteneur {
-                                                                                                                                  column-gap: 2rem;
-                                                                                                                                  grid-template-columns: 6fr 3fr;
+                                                                                                                              @media(largeur maximale: 500px) {
+                                                                                                                                  .conteneur {
+                                                                                                                                      column-gap: 2rem;
+                                                                                                                                      grid-template-columns: 6fr 3fr;
+                                                                                                                                  }
                                                                                                                               }
                                                                                                                               .headerhebergement1 {
                                                                                                                                   grid-column-start: 1;
