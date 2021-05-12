@@ -490,12 +490,6 @@
                                                                                                                                   object-fit: cover;
                                                                                                                               }
                                                                                                                               /**section2**/
-                                                                                                                              @media(min-width: 1100px) {
-                                                                                                                                  .flex-conteneur3 {
-                                                                                                                                      grid-template-columns: repeat(4, 1fr);
-                                                                                                                                      grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
-                                                                                                                                  }
-                                                                                                                              }
                                                                                                                               .titre-activité {
                                                                                                                                   display: grid;
                                                                                                                                   column-gap: 2rem;
@@ -624,5 +618,10 @@
                                                                                                                               ul {
                                                                                                                                   list-style: none;
                                                                                                                                   justify-content: space-between;
+                                                                                                                              }
+                                                                                                                              @media screen and (max-widht:1100px) {
+                                                                                                                                  .conteneur {
+                                                                                                                                      display: block;
+                                                                                                                                  }
                                                                                                                               }
                                                                                                                           }
