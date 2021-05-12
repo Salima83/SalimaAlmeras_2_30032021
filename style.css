@@ -687,10 +687,25 @@
         .barre-filtres3 {
             display: flex;
         }
+        .Recherche {}
         .conteneur {
-            display: flexbox;
+            display: contents;
+        }
+        .conteneur1 {
+            display: contents;
+        }
+        .conteneur2 {
+            display: contents;
+        }
+        .flex-conteneur3 {
+            display: contents;
+        }
+        .footer {
+            display: flex;
         }
     }
+    
+    @media(max-width:1440px) {}
     
     @media screen and (min-width:601px) {
         .header {
