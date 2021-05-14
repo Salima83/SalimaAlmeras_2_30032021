@@ -699,6 +699,13 @@ ul {
         grid-template-columns: 1fr;
         row-gap: 1rem;
     }
+    .recherche-boutton{
+    
+    font-size: 0rem;
+    display:block;
+    color: #FFFFFF;
+    background-color: #0065FC;
+    }
     .conteneur1 {
         display: contents;
         width: 50%;
