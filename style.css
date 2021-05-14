@@ -51,6 +51,9 @@
 .far.fa-star {
     color: grey;
 }
+.fas.fa-search{
+    color:transparent;
+}
 
 .info-recherche1 {
     margin-bottom: 1rem;
@@ -273,12 +276,6 @@ i {
     grid-template-columns: 6fr 3fr;
 }
 
-@media (max-widht:1440px) {
-    .conteneur {
-        grid-template-columns: 1fr;
-        row-gap: 2rem;
-    }
-}
 
 .headerhebergement1 {
     grid-column-start: 1;
@@ -699,12 +696,36 @@ ul {
         grid-template-columns: 1fr;
         row-gap: 1rem;
     }
+    .Recherche{
+       
+
+    }
+    .fas.fa-search{
+    padding: 0rem 1rem 0rem 1rem;
+    width: auto;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight:900 ;
+    line-height: 3rem;
+    color: #F2F2F2;
+    background-color: #0065FC;
+    border: none;
+    border-radius: 1rem;
+        
+    }
     .recherche-boutton{
-    
-    font-size: 0rem;
-    display:block;
+        display: none;
+        padding: 0rem 1rem 0rem 1rem;
+    width: auto;
+    height: 3rem;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
     color: #FFFFFF;
     background-color: #0065FC;
+    border: 
+    
+    
     }
     .conteneur1 {
         display: contents;
