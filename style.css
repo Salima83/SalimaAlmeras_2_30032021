@@ -725,16 +725,23 @@ ul {
     
     }
     .conteneur1 {
-        display: contents;
-        width: 50%;
+        display: grid;
+        width: 100%;
         grid-template-columns: 1fr;
         grid-column-start: 2;
+        grid-column-end: 3;
     }
     .conteneur2 {
-        display: contents;
+        display: grid;
         grid-template-columns: 1fr;
-        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-row-end: -2;
+        width: 80%;
 
+    }
+    .conteneur1__item--1{
+        grid-row-start: 1;
+        grid-column-end: 3;
     }
     .flex-conteneur3 {
         display: grid;
