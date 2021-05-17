@@ -838,8 +838,7 @@ ul {
 @media screen and (min-width:601px) {
     .header {
         
-        grid-template-columns: auto 1fr auto auto;
-        grid-template-areas: "logo .nav inscription ";
+        display: table;
     }
 }
 
@@ -881,12 +880,10 @@ ul {
         margin: auto;
     }
     
-    .conteneur {
-        display: block;
-    }
+   
 }
 
-@media screen {
+@media screen and (max-width:1680px) {
     .barre-filtre3 {
         display: grid;
         grid-template-columns: repeat(4, auto);
@@ -898,24 +895,6 @@ ul {
         grid-column-start: 3;
         grid-column-end: 4;
     }
-}
-@media (min-width: 768px) and (max-width :1024px){
-    .inscription {
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        color: #0065FC;
-        font-weight: 600;
-        grid-column-start: 4;
-        grid-column-end: 5;
-    }
-    .nav-section {
-        margin-bottom: 1rem;
-        padding-top: 0px;
-        padding-right: 1rem;
-        padding-bottom: 1rem;
-    }
-    
     .header {
         display: grid;
         grid-template-columns: auto 1fr auto auto;
@@ -925,20 +904,8 @@ ul {
         max-width: 1440px;
         margin: auto;
     }
-    .nav {
-        display: flex;
-        align-items: center;
-        grid-column-start: 3;
-        grid-column-end: 4;
-    }
-    .conteneur{
-        display: block;
-    }
-    .conteneur2{
-        margin-top: 2rem;
-    }
-
 }
+
 @media (min-with:925px) {
     .inscription {
         display: flex;
@@ -980,4 +947,4 @@ ul {
     }
     
     }
-}
+
