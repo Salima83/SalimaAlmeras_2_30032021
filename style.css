@@ -661,9 +661,7 @@ ul {
 /** media query**/
 
 @media screen and (max-width:600px) {
-    .logo-img {
-        padding-left: 0px;
-    }
+    
     .nav-section {
         padding-right: -6rem;
         margin-right: -5px;
@@ -869,15 +867,7 @@ ul {
         padding-bottom: 1rem;
     }
     
-    .header {
-        display:grid; 
-        grid-template-columns: auto 1fr auto auto;
-        grid-template-areas: "logo .navigation";
-        align-items: center;
-        justify-content: center;
-        max-width: 1440px;
-        margin: auto;
-    }
+    
     .nav {
         display: flex;
         align-items: center;
