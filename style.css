@@ -673,6 +673,7 @@ ul {
     }
     .header {
         display: table;
+        width: 100%;
     }
     .lien-navigation1.lien-navigation {
         border-bottom-style: solid;
@@ -701,7 +702,7 @@ ul {
         margin: 0.5rem;
     }
    
-    .conteneur {
+    #conteneur {
         display: grid;
         grid-template-columns: 1fr;
         row-gap: 1rem;
