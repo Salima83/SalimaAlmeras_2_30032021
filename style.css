@@ -688,11 +688,11 @@ ul {
         margin-top: 30px;
         margin-left: 30px;
     }
-    .barre-Filtre{
+    #barre-Filtre{
         width: 100%;
     }
     .barre-filtres2 {
-        margin-right: 100px;
+        margin-right: 200px;
     }
     .barre-filtres3 {
         display: flex;
@@ -754,7 +754,6 @@ ul {
         border-radius: 0px;
         float: left;
     }
-    /**    **/
     .titre-activité{
         margin-left: 1rem;
         margin-bottom: 1rem;
