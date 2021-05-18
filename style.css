@@ -688,6 +688,9 @@ ul {
         margin-top: 30px;
         margin-left: 30px;
     }
+    .barre-Filtre{
+        width: 100%;
+    }
     .barre-filtres2 {
         margin-right: 100px;
     }
