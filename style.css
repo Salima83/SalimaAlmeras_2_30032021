@@ -21,6 +21,7 @@
     font-size: 16px;
 }
 
+
 * {
     margin: 0px;
     padding: 0px;
@@ -91,8 +92,7 @@
     justify-content: flex-end;
     color: #0065FC;
     font-weight: 600;
-    grid-column-start: 4;
-    grid-column-end: 5;
+    
 }
 
 a {
@@ -174,10 +174,12 @@ html {
     color: black;
     width: 100%;
     height: 100%;
+    font-weight:900 ;
 }
 
 p {
     color: black;
+    font-weight: 100;
 }
 
 i {
@@ -322,11 +324,10 @@ i {
 
 .plus {
     font-weight: bold;
+    margin-top: 1rem;
 }
 
-.headerhebergement {
-    margin-bottom: 2rem;
-}
+
 
 h2 {
     font-size: 1.25rem;
@@ -640,6 +641,7 @@ h2 {
     margin-right: 0px;
     margin-left: 0px;
     margin-bottom: 1rem;
+    font-weight: 100;
 }
 
 .Titre-footer {
@@ -814,12 +816,12 @@ ul {
     .header {
         display: grid;
     }
-    .conteneur {
-        display: flex;
-        flex-direction: column;
-    }
+    #conteneur {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 1rem;
 }
-
+}
 
                     /* Tablette */
 
@@ -855,5 +857,24 @@ ul {
     }
     .conteneur1{
         margin-bottom: 1rem;
+    }
+    .flex-conteneur3{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width:1024px) {
+
+    #conteneur {
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .conteneur1{
+        margin-bottom: 1rem;
+    }
+    .flex-conteneur3{
+        display: flex;
+        flex-direction: column;
     }
 }
