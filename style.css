@@ -126,7 +126,7 @@ a:hover {
 
 .search-zone {
     padding: 0rem 1rem;
-    width: 150px;
+    width: 200px;
     height: 2.9rem;
     font-size: 1.125rem;
     font-weight: 500;
@@ -866,7 +866,6 @@ ul {
 @media(max-width:1024px) {
 
     #conteneur {
-        display: flex;
         flex-direction: column;
     
     }
