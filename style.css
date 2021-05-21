@@ -21,7 +21,6 @@
     font-size: 16px;
 }
 
-
 * {
     margin: 0px;
     padding: 0px;
@@ -92,7 +91,6 @@
     justify-content: flex-end;
     color: #0065FC;
     font-weight: 600;
-    
 }
 
 a {
@@ -174,7 +172,7 @@ html {
     color: black;
     width: 100%;
     height: 100%;
-    font-weight:900 ;
+    font-weight: 900;
 }
 
 p {
@@ -299,7 +297,8 @@ i {
     margin: 0;
 }
 
-.conteneur1, .conteneur2 {
+.conteneur1,
+.conteneur2 {
     background-color: #F2F2F2;
     border-radius: 1.5rem;
     padding: 2rem;
@@ -326,8 +325,6 @@ i {
     font-weight: bold;
     margin-top: 1rem;
 }
-
-
 
 h2 {
     font-size: 1.25rem;
@@ -416,6 +413,7 @@ h2 {
     max-height: 100%;
     border-radius: 1rem 1rem 0 0;
 }
+
 
 /**  **/
 
@@ -510,6 +508,7 @@ h2 {
     height: 100%;
     object-fit: cover;
 }
+
 
 /**section2**/
 
@@ -653,13 +652,14 @@ ul {
     justify-content: space-between;
 }
 
+
 /** media query**/
+
 
 /**iPhone**/
 
 @media screen and (max-width:600px) {
     .nav-section {
-    
         margin-right: -5px;
         width: 100%;
     }
@@ -739,13 +739,12 @@ ul {
         padding-left: 1.5rem;
         padding-right: 1.5rem;
     }
-    
     .conteneur1__item--1 {
         grid-row-start: 1;
         grid-column-end: 3;
     }
-    .plus{
-        padding-top: 2rem;
+    .plus {
+        padding-top: 0rem;
     }
     .conteneur2 {
         display: grid;
@@ -755,9 +754,10 @@ ul {
         border-radius: 0px;
         float: left;
     }
-    .titre-activité{
+    .titre-activité {
         margin-left: 1rem;
         margin-bottom: 1rem;
+        margin-top: 0rem;
     }
     .flex-conteneur3 {
         display: flex;
@@ -820,13 +820,14 @@ ul {
         display: grid;
         grid-template-columns: 1fr;
         row-gap: 1rem;
-}
+    }
 }
 
-                    /* Tablette */
 
-@media screen and (min-width:768px)and (max-width:1100px){
-      .inscription {
+/* Tablette */
+
+@media screen and (min-width:768px)and (max-width:1100px) {
+    .inscription {
         display: flex;
         align-items: center;
         justify-content: flex-end;
@@ -853,26 +854,24 @@ ul {
     #conteneur {
         display: flex;
         flex-direction: column;
-    
     }
-    .conteneur1{
+    .conteneur1 {
         margin-bottom: 1rem;
     }
-    .flex-conteneur3{
+    .flex-conteneur3 {
         display: flex;
         flex-direction: column;
     }
 }
-@media(max-width:1024px) {
 
+@media(max-width:1024px) {
     #conteneur {
         flex-direction: column;
-    
     }
-    .conteneur1{
+    .conteneur1 {
         margin-bottom: 1rem;
     }
-    .flex-conteneur3{
+    .flex-conteneur3 {
         display: flex;
         flex-direction: column;
     }
