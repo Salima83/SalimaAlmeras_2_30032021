@@ -165,6 +165,7 @@ a:hover {
     background-color: #0065FC;
     border: none;
     border-radius: 0rem 1rem 1rem 0rem;
+    cursor: pointer;
 }
 
 html {
@@ -337,6 +338,7 @@ h2 {
     margin-right: 0.75rem;
     margin-bottom: 0.25rem;
     margin-left: 0.75rem;
+    transition-duration: 0.1s;
 }
 
 .carte {
@@ -817,9 +819,8 @@ ul {
         display: grid;
     }
     #conteneur {
-        display: grid;
-        grid-template-columns: 1fr;
-        row-gap: 1rem;
+        display: flex;
+        flex-direction: column;
     }
 }
 
