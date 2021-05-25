@@ -784,8 +784,6 @@ ul {
         justify-content: flex-end;
         color: #0065FC;
         font-weight: 600;
-        grid-column-start: 4;
-        grid-column-end: 5;
     }
     .nav-section {
         margin-bottom: 1rem;
@@ -796,8 +794,6 @@ ul {
     .nav {
         display: flex;
         align-items: center;
-        grid-column-start: 3;
-        grid-column-end: 4;
     }
 }
 
@@ -875,7 +871,5 @@ ul {
         justify-content: flex-end;
         color: #0065FC;
         font-weight: 600;
-        grid-column-start: 4;
-        grid-column-end: 5;
     }
 }
