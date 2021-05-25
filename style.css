@@ -769,7 +769,7 @@ ul {
     }
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 1440px) and (max-width:1900px) {
     .header {
         grid-template-columns: auto 1fr auto auto;
         grid-template-areas: "logo .navigation";
@@ -799,7 +799,12 @@ ul {
 
 @media screen and (min-width: 601px) and (max-width: 786px) {
     .header {
-        display: grid;
+        grid-template-columns: auto 1fr auto auto;
+        grid-template-areas: "logo .navigation";
+        align-items: center;
+        justify-content: center;
+        max-width: 1440px;
+        margin: auto;
     }
     #conteneur {
         display: flex;
@@ -807,7 +812,7 @@ ul {
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1100px) {
+@media screen and (min-width: 768px) and (max-width: 1441px) {
     .inscription {
         display: flex;
         align-items: center;
@@ -822,7 +827,6 @@ ul {
         padding-bottom: 1rem;
     }
     .header {
-        display: grid;
         grid-template-columns: auto 1fr auto auto;
         grid-template-areas: "logo .navigation";
         align-items: center;
