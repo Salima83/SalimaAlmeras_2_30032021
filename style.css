@@ -812,7 +812,7 @@ ul {
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1441px) {
+@media screen and (min-width: 768px) and (max-width: 1000px) {
     .inscription {
         display: flex;
         align-items: center;
@@ -844,6 +844,24 @@ ul {
     .flex-conteneur3 {
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1441px) {
+    .header {
+        grid-template-columns: auto 1fr auto auto;
+        grid-template-areas: "logo .navigation";
+        align-items: center;
+        justify-content: center;
+        max-width: 1440px;
+        margin: auto;
+    }
+    #conteneur {
+        display: flex;
+        flex-direction: column;
+    }
+    .conteneur1 {
+        margin-bottom: 1rem;
     }
 }
 
