@@ -784,6 +784,15 @@ ul {
     .conteneur2 {
         margin-top: 2rem;
     }
+    .flex-conteneur3 {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-colonne {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
 }
 
 @media (min-width:787px) and (max-width:1339px) {
