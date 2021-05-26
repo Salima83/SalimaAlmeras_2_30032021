@@ -847,6 +847,7 @@
  @media screen and (min-width:1901px) and (max-width:9000px) {
      .header {
          display: flex;
+         justify-content: center;
      }
      #conteneur {
          display: grid;
