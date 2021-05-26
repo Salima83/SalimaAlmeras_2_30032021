@@ -792,10 +792,11 @@ ul {
         display: flex;
         flex-direction: column;
         padding: 2rem;
+        padding-right: 0rem;
     }
 }
 
-@media (min-width:787px) and (max-width:1339px) {
+@media (min-width:787px) and (max-width:1439px) {
     .header {
         grid-template-columns: auto 1fr auto auto;
         align-items: center;
