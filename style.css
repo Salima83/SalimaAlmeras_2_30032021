@@ -30,7 +30,7 @@
  .nav-section {
      margin-bottom: 1rem;
      padding-top: 0;
-     padding-right: 1rem;
+     padding-right: 2rem;
      padding-bottom: 1rem;
  }
  
@@ -167,7 +167,7 @@
  }
  
  html {
-     font: normal normal 16px Raleway;
+     font-family: normal normal 16px Raleway;
      color: black;
      width: 100%;
      height: 100%;
