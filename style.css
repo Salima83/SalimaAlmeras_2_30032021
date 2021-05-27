@@ -844,10 +844,30 @@
      }
  }
  
- @media screen and (min-width:1901px) and (max-width:9000px) {
+ @media screen and (min-width:1901px) {
      .header {
-         display: flex;
+         grid-template-columns: auto 1fr auto auto;
+         align-items: center;
          justify-content: center;
+         max-width: 1440px;
+         margin: auto;
+     }
+     .inscription {
+         display: flex;
+         align-items: center;
+         justify-content: flex-end;
+         color: #0065FC;
+         font-weight: 600;
+     }
+     .nav-section {
+         margin-bottom: 1rem;
+         padding-top: 0;
+         padding-right: 1rem;
+         padding-bottom: 1rem;
+     }
+     .nav {
+         display: flex;
+         align-items: center;
      }
      #conteneur {
          display: grid;
