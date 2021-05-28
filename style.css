@@ -77,7 +77,6 @@
  
  .lien-navigation {
      padding: 2rem;
-     font-weight: 500;
      text-align: center;
      border-bottom: 3px solid transparent;
      font-weight: 800;
@@ -873,5 +872,32 @@
          display: grid;
          column-gap: 2rem;
          grid-template-columns: 6fr 3fr;
+     }
+ }
+ /** ecran petite résolution**/
+ 
+ @media all and (max-device-width: 350px) {
+     #logo {
+         width: 100px;
+         height: 40px;
+     }
+     .header {
+         grid-template-columns: auto 1fr auto auto;
+         align-items: center;
+         justify-content: center;
+         max-width: 1440px;
+         margin: auto;
+     }
+     .inscription {
+         position: absolute;
+         top: -18px;
+         left: 170px;
+         margin-top: 30px;
+         margin-left: 30px;
+     }
+     .search-zone {
+         font-size: 0.9rem;
+         width: 150px;
+         padding: 0 0.5rem;
      }
  }
